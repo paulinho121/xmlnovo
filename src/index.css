@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #E4E3E0;
+  --color-brand-ink: #141414;
+  --color-brand-line: #141414;
+  --color-brand-accent: #D15124;
+  --color-brand-white: #FFF;
+  --color-brand-surface: #F0EFED;
+  --color-brand-header: #EAE9E6;
+  --font-mono: "Courier New", Courier, monospace;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Georgia, serif;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-ink);
+  font-family: var(--font-sans);
+}
